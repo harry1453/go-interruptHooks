@@ -20,7 +20,7 @@ func init() {
 }
 
 func listenForSignalsOrHooks() {
-	shouldShutdown := false
+	shouldShutdown := true
 	for {
 		var interruptHooks []InterruptHook
 	listenToChannels:
